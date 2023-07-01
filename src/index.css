@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  max-width: 1300px;
+  width: 100%;
+  margin: auto;
+}
+
+body {
+  background-size: cover;
+  background-color:#0a0e30;
+  text-align: center;
+}
+section{
+  min-height: 100vh;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+h2{
+  color: rgb(255, 255, 255);
+  font-family: 'Calibri';
+  width: 100%;
+  font-size: 2em;
+  font-weight: bold;
+  text-align:center;
+  position:relative; 
+  top:60px;
+}
+
+hr {
+  border: 2px solid lightblue;
+  border-radius: 5px;
+  position:relative;
+  top:20px;
+}
+.l2{
+  position:relative; 
+  bottom: 0px;
+}
+
+h1{
+  color: rgb(255, 255, 255);
+  font-family: 'Calibri';
+  letter-spacing: -0.175rem;
+  width: 100%;
+  font-size: 3.5em;
+  font-weight: bold;
+  text-align:center;
+  position:relative;
+  top:10px;
+}
+
+.paytm{
+  text-align:center;
+  width:100px;
+  height: 100px;
+}
+
+.cards{
+  align-items: right;
+}
+
+.card{
+  flex: 0 0 calc(33.33% - 20px);
+  max-width: calc(33.33% - 20px);
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20 px;
+  margin-bottom: 20px;
+  transition: .3s;
+  border:2px solid transparent;
+}
+
+.card:hover{
+  border-color:blue;
+}
+h3{
+  color: rgb(255, 255, 255);
+  position: absolute; 
+  left: 40px;
+  font-weight: 700;
+  font-size: 1.5em;
+  top:20px;
+}
+
+h4{
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+  font-size: 1.5em;
+  position: absolute; 
+  left: 112px;
+  top:20px;
+}
